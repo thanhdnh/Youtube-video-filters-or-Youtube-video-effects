@@ -1,0 +1,121 @@
+html, body{padding:0px;background:black;color:white;font-size:12px;font-family:sans-serif;overflow-x:hidden;}
+body{min-width:175px;min-height:400px;padding-bottom:20px;padding-top:30px;}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbe100;
+    padding: 5px 4px;
+    background:url("32.png") no-repeat 10px 1px;
+	background-size:contain;
+	user-select:none;
+	width:100%;
+	font-size: 15px;
+    font-family: monospace;
+	margin-top:0px;
+}
+ul{padding:0px;list-style-type: none;width:100%;}
+li{height:26px;}
+li *{margin:5px;cursor:pointer;display:inline-block;}
+li input{margin:0px 5px 2px 5px;vertical-align:middle;}
+li:hover{background-color:#1e7dc9 !important;}
+li label{
+	display: inline-block;
+    width: calc(100% - 33px);
+	height:24px;
+	padding-top:2px;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,.1); 
+}
+
+header{
+	position:fixed;
+	height:30px;
+	width:100%;
+	top:0px;
+	left:0px;
+	background:black;
+	text-align:center;
+	vertical-align:middle;
+	padding:0px;
+	padding-bottom:0px;
+	background: linear-gradient(#c10000, #FF5722);
+}
+
+footer{
+	position:fixed;
+	height:12px;
+	width:100%;
+	background: linear-gradient(360deg,#c10000, #FF5722);
+	bottom:3px;
+	left:0px;
+	margin:0px auto;
+	text-align:center;
+	padding-left:0px;
+	padding-bottom:18px;
+}
+
+footer label{display:inline-block;vertical-align: middle;}
+label.caption{
+	width:120px;
+	font-weight:bold;
+	color:white;
+	padding-left:5px;
+	text-transform: uppercase;
+	font-size: 13px;
+    font-family: monospace;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  transform:scale(.5);
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#switchdm:checked + .slider {
+  background-color: #2196F3;
+}
+
+#switchdm:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+#switchdm:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}

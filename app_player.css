@@ -1,0 +1,11 @@
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    background: dimgray; 
+}
+html, body{
+    overflow-x:hidden;
+}
