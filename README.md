@@ -2,7 +2,7 @@
 Bring video effects and color filters to YouTube. All of these effects/filters will appear in real-time.
 ## This is extension/addon for browser to enhance YouTube experience.
 
-[For Chrome (and other Chromium-based browser)](https://chrome.google.com/webstore/detail/youtube-video-filters/jdjldbengpgdcfkljfdmakdgmfpneldd) | [For FireFox](https://addons.mozilla.org/en-US/firefox/addon/youtube-video-effects/)
+[For Chrome (and other Chromium-based browsers)](https://chrome.google.com/webstore/detail/youtube-video-filters/jdjldbengpgdcfkljfdmakdgmfpneldd) | [For FireFox](https://addons.mozilla.org/en-US/firefox/addon/youtube-video-effects/)
 
 ![user interface](https://lh3.googleusercontent.com/eeJX7p4ySW5oVfTV4YCF5kBv2sgiyS9iEFhMFyPvnrcEvqOgI74SqFjTBKyThNNsFpVvUUZYgNg=w640-h400-e365)
 
