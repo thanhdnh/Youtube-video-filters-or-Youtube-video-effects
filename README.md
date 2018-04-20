@@ -2,11 +2,11 @@
 Bring video effects and color filters to YouTube. All of these effects/filters will appear in real-time.
 ## This is extension/addon for browser to enhance YouTube experience.
 
-[For Chrome (and other Chromium-based browsers)](https://chrome.google.com/webstore/detail/youtube-video-filters/jdjldbengpgdcfkljfdmakdgmfpneldd) | [For FireFox](https://addons.mozilla.org/en-US/firefox/addon/youtube-video-effects/)
+[For Chrome (and other Chromium-based browsers, such as Opera, Yandex browser, Coccoc etc)](https://chrome.google.com/webstore/detail/youtube-video-filters/jdjldbengpgdcfkljfdmakdgmfpneldd) | [For FireFox](https://addons.mozilla.org/en-US/firefox/addon/youtube-video-effects/)
 
 ![user interface](https://lh3.googleusercontent.com/eeJX7p4ySW5oVfTV4YCF5kBv2sgiyS9iEFhMFyPvnrcEvqOgI74SqFjTBKyThNNsFpVvUUZYgNg=w640-h400-e365)
 
-We also support for other browsers, such as: Firefox, Safari, Edge, etc.
+We also will support for other browsers, such as: Safari, Edge, etc.
 ## This is free and open-source
 ## Feature of this extensions (updating)
 - This extension brings to you above 50 video filters/effects for YouTube, such as: love, warm, moonlight, sepia, gray, drawing, blur, contour, edge map etc.
