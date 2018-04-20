@@ -14,6 +14,9 @@ We also support for other browsers, such as: Firefox, Safari, Edge, etc.
 - Remove black space (black bars) around video: Your video content will fit to YouTube media player. You will not see the annoying black space around video.
 - Auto loop current video: you can play one video many times.
 - Auto play/pause if focus/blur Tab: YouTube media player will pause/play automatically when you switch to other tabs or leave from watching video.
+
 ![user interface](https://lh3.googleusercontent.com/eeJX7p4ySW5oVfTV4YCF5kBv2sgiyS9iEFhMFyPvnrcEvqOgI74SqFjTBKyThNNsFpVvUUZYgNg=w640-h400-e365)
+
 ![wide view](https://lh3.googleusercontent.com/jwkjN5YwzlMhhfJM3xnOzzwxBehVINecewGCHv618P60gHuhmoOKKoehgVQiia3SBIlr2xEI4A=w640-h400-e365)
+
 ![filters/effects](https://lh3.googleusercontent.com/du5Ju6LueRrpEDC5Go_SW8d-pHUmvwmVQu-BgOEHlS7NcNNQiQhpZ3SrTJMMH5zUTV-PYClD8w=w640-h400-e365)
