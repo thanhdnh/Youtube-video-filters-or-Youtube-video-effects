@@ -2,7 +2,9 @@
 Bring video effects and color filters to YouTube. All of these effects/filters will appear in real-time.
 ## This is extension/addon for browser to enhance YouTube experience.
 
-Chrome extension (and other Chromium-based browser): https://chrome.google.com/webstore/detail/youtube-video-filters/jdjldbengpgdcfkljfdmakdgmfpneldd
+[For Chrome (and other Chromium-based browser)](https://chrome.google.com/webstore/detail/youtube-video-filters/jdjldbengpgdcfkljfdmakdgmfpneldd) | [For FireFox](https://addons.mozilla.org/en-US/firefox/addon/youtube-video-effects/)
+
+![user interface](https://lh3.googleusercontent.com/eeJX7p4ySW5oVfTV4YCF5kBv2sgiyS9iEFhMFyPvnrcEvqOgI74SqFjTBKyThNNsFpVvUUZYgNg=w640-h400-e365)
 
 We also support for other browsers, such as: Firefox, Safari, Edge, etc.
 ## This is free and open-source
@@ -14,8 +16,6 @@ We also support for other browsers, such as: Firefox, Safari, Edge, etc.
 - Remove black space (black bars) around video: Your video content will fit to YouTube media player. You will not see the annoying black space around video.
 - Auto loop current video: you can play one video many times.
 - Auto play/pause if focus/blur Tab: YouTube media player will pause/play automatically when you switch to other tabs or leave from watching video.
-
-![user interface](https://lh3.googleusercontent.com/eeJX7p4ySW5oVfTV4YCF5kBv2sgiyS9iEFhMFyPvnrcEvqOgI74SqFjTBKyThNNsFpVvUUZYgNg=w640-h400-e365)
 
 ![wide view](https://lh3.googleusercontent.com/jwkjN5YwzlMhhfJM3xnOzzwxBehVINecewGCHv618P60gHuhmoOKKoehgVQiia3SBIlr2xEI4A=w640-h400-e365)
 
