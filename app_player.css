@@ -1,11 +1,18 @@
 body::-webkit-scrollbar {
-  width: 4px;
-  height: 5px;
-  background-color: black;
+    width: 8px;
+    height: 0px;
+    background-color: rgba(0,0,0,0);
 }
+
 body::-webkit-scrollbar-thumb {
-    background: dimgray; 
+    background: rgba(110, 110, 110, .4);
 }
-html, body{
-    overflow-x:hidden;
+
+html, body {
+    overflow-x: hidden !important;
+}
+
+#ytp-video-filters-htcom{
+	background-position:center !important;
+	background-size:cover;
 }

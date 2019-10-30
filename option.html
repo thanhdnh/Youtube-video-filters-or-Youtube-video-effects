@@ -1,0 +1,77 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="option.css">
+</head>
+
+<body>
+	<section>
+		<h1 class="header" title="Quality is set by YouTube Player has higher priority.">YouTube Video Quality:</h1>
+		<div class="content">
+			<ul id="quality">
+				<li><input type="radio" name="quality" id="auto" checked><label for="auto">Auto</label>
+				</li>
+				<li><input type="radio" name="quality" id="hires"><label for="hires">8K, QUHD, 4320p</label>
+				</li>
+				<li><input type="radio" name="quality" id="hd2880"><label for="hd2880">5K, UHD+, 2880p</label>
+				</li>
+				<li><input type="radio" name="quality" id="hd2160"><label for="hd2160">4K, UHD, 2160p</label>
+				</li>
+				<li><input type="radio" name="quality" id="hd1440"><label for="hd1440">2K, QHD, 1440p</label>
+				</li>
+				<li><input type="radio" name="quality" id="hd1080"><label for="hd1080">FullHD, 1080p</label>
+				</li>
+				<li><input type="radio" name="quality" id="hd720"><label for="hd720">HD, 720p</label>
+				</li>
+				<li><input type="radio" name="quality" id="large"><label for="large">Large, 480p</label>
+				</li>
+				<li><input type="radio" name="quality" id="medium"><label for="medium">Medium, 360p</label>
+				</li>
+				<li><input type="radio" name="quality" id="small"><label for="small">Small, 240p</label>
+				</li>
+				<li><input type="radio" name="quality" id="tiny"><label for="tiny">Tiny, 144p</label>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section>
+		<h1 class="header">Advanced Options:</h1>
+		<div class="content">
+			<ul id="quality">
+				<li title="Only play the current watching video"><input type="checkbox" id="autoloop"><label for="autoloop">Auto loop current video</label>
+				</li>
+				<li title="YouTube player will stretch out to fit to browser size.&#013;You only see video content in browser, but it is not fullscreen."><input type="checkbox" id="fwin"><label for="fwin">Add infinity mode</label>
+				</li>
+				<li title="Video content zooms out to fit to player size.&#013;You won't see the annoying black bars around it.&#013;It works best for all popular aspect ratios, such as SD ratio (4:3),&#013;HD ratio (16:9), ultra wide ratio (21:9), super ultra wide ratio (32:9) and higher."><input type="checkbox" id="vscale"><label for="vscale">Remove black bars around video</label>
+				</li>
+				<!--<li title="Block all annoying Ads. You have to reload YouTube."><input type="checkbox" id="adblock" ><label for="adblock">Enable Adblock<sup>(Reload YouTube)</sup></label>
+				</li>-->
+				<li title="When you leave from watching video, YouTube player will pause automatically.&#013;It plays back when you reach to this video again."><input type="checkbox" id="switcher"><label for="switcher">Auto pause and play</label>
+				</li>
+				<li title="The light around video will decrease until it is off.&#013;This effect looks like on cinema."><input type="checkbox" id="tloff" disabled><label for="tloff">Turn light OFF<sup>*</sup></label>
+				</li>
+				<li title="Press F9 to run video in Picture-in-Picture mode.&#013;However, in this mode, you cannot use effects.&#013;Currently, this feature is only supported on Chrome 68+&#013;(It is still beta feature on Chrome 68)"><input type="checkbox" id="fvideo" checked><label style="color:#c9a157;" for="fvideo">Picture-in-Picture (F9)<sup>See (4)</sup></label>
+				</li>
+				<li title="Play next video right after the current video ended"><input type="checkbox" id="fastplay" disabled><label for="fastplay">No wait between tracks<sup>*</sup></label>
+				</li>
+				<li title="Custom styles for subtitles: size, color, background color"><input type="checkbox" id="subtt" disabled><label for="subtt">Custom subtitles style<sup>*</sup></label>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<p>
+		<span>1) If
+			<u>the selected quality</u> is unavailable, the next lower quality will be set.</span>
+		<br/><span>2) Note: feature<sup>*</sup> &#151; unavailable now.</span> Visit <a href='http://www.videoeffects.org'>YouTube Video Effects&#8482</a> to know updates.
+		<br/><span id="msg_upgrade_YT">3) YouTube Video Effects&#8482; only works on the latest YouTube (Material Design). If you are using classic YouTube, please <span id='htcom_YTMD'>CLICK HERE</span> to upgrade.</span> If you love it, please put your <a href='https://chrome.google.com/webstore/detail/youtube-video-effects/jdjldbengpgdcfkljfdmakdgmfpneldd/reviews'><strong>RATING</strong></a>.<br/><span><strong style='color:orange;'>4)</strong> Enable Picture-in-Picture in Chrome 68: (a) Type on address bar: chrome://flags (b) Enable three following options: <u style='color:olive;'>Enable Picture-in-Picture</u>, <u style='color:lightblue;'>Enable the use of SurfaceLayer objects for videos</u>, <u style='color:pink;'>Experimental Web Platform features</u> (type option text in search box).</span>
+	</p>
+	<p id='share'>
+		<a href='https://www.facebook.com/sharer/sharer.php?u=http%3A//www.videoeffects.org'><img title='Share to Facebook' src='audio/images/fb.svg'></a>
+		<a href='https://twitter.com/home?status=http%3A//www.videoeffects.org'><img title='Share to Twitter' src='audio/images/tw.svg'></a>
+		<a href='https://plus.google.com/share?url=http%3A//www.videoeffects.org'><img title='Share to Google+' src='audio/images/gp.svg'></a>
+		<a href='http://vk.com/share.php?url=http://www.videoeffects.org'><img title='Share to VK' src='audio/images/vk.svg'></a>
+	</p>
+</body>
+<script type="text/javascript" src="option.js"></script>
+
+</html>
