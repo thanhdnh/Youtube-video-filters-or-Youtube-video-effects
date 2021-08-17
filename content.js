@@ -270,15 +270,6 @@ function forceMasthead2Dark(s){
 }
 
 function P2P(){//F9
-	//if(document.pictureInPictureEnabled){	
-		video = document.querySelector('video');	
-		video.requestPictureInPicture();
-	//}
+	video = document.querySelector('video');	
+	video.requestPictureInPicture();
 }
-
-/*function P2POff(){//Alt+Q
-	if(document.pictureInPictureEnabled){	
-		video = document.querySelector('video');	
-		document.exitPictureInPicture();
-	}
-}*/
