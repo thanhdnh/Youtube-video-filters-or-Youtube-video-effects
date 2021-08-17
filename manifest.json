@@ -2,7 +2,7 @@
 	"name": "__MSG_name__",
 	"short_name": "__MSG_short_name__",
 	"manifest_version": 2,
-	"version": "3.2.3.5",
+	"version": "3.2.4.2",
 	"description": "__MSG_description__",
 	"default_locale": "en",
 	"browser_action": {
@@ -30,13 +30,9 @@
 	],
 	"permissions": [
 		"tabs",
-		"activeTab",
-		"webRequest",
 		"storage",
 		"<all_urls>",
-		"webNavigation",
-		"tabCapture",
-		"webRequestBlocking"
+		"tabCapture"
 	],
 	"icons": {
 		"64": "64.png",

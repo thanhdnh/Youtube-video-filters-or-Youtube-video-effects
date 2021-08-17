@@ -43,7 +43,7 @@ function readyGo() {
 
 
 var _thread = setInterval(function () {
-	if (document.querySelectorAll('#player.style-scope').length > 0) {
+	if (document.getElementById('ytp-enhanced-yt-mode')!=null && document.getElementById('ytp-enhanced-yt-mode')!=undefined) {
 		clearInterval(_thread);
 		autoScale();
 		readyGo();

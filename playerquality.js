@@ -27,7 +27,7 @@ function selectVideoQuality() {
 	}
 }
 
-setTimeout(function(){selectVideoQuality();},1000);
+setTimeout(function(){selectVideoQuality();},2500);
 /*var dfq = "auto";
 if (localStorage.getItem("youtube_filter_video_quality") !== undefined && localStorage.getItem("youtube_filter_video_quality") !== null)
 	dfq = localStorage.getItem("youtube_filter_video_quality");

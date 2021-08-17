@@ -5,9 +5,10 @@ html, body{
 }
 body{
 	padding-left:10px;
-	min-width:526px;
+	min-width:650px;
+	max-width:650px
 	min-height:410px;
-	width:526px;
+	width:650px;
 	height:410px;
 }
 section .header{
@@ -85,3 +86,14 @@ a:hover{color:pink; text-decoration:none;}
 #share img{width:32px;height:32px;margin-right:12px;opacity:.8;transform:scale(.9);}
 #share img:hover{opacity:1;transform:scale(1);}
 #share a:link, #share a:hover, #share a:visited{color:transparent;}
+#toucan{
+	position: fixed;
+	top: 40px;
+	right: 5px;
+}
+#toucan img{
+	width:120px;
+}
+#toucan img:hover{
+	transform:scale(1.1);
+}

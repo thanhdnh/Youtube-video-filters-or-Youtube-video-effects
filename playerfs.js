@@ -32,7 +32,7 @@ function loadPlayerFS() {
 					if (modes.length > 0)
 						fm.style.display = modes[0].style.display;
 				}
-			}, 400);
+			}, 600);
 		});
 	}
 	if (document.getElementById('ytp-enhanced-yt-mode') == null) {
