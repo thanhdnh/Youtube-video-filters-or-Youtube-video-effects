@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "Video Effects for YouTube And Audio Enhancer"
+    },
+    "short_name": {
+        "message": "Media Enhancer"
+    },
+    "description": {
+        "message": "Improves YouTube experience with video effects, color filters and other features. Also provides a sound enhancer for all sites"
+    },
+    "default_title": {
+    	"message": "Select an effect to apply"
+    }
+}

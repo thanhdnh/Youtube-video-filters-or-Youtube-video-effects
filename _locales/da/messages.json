@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "YouTube Video Effects"
+    },
+    "short_name": {
+        "message": "YouTube Color Filters"
+    },
+    "description": {
+        "message": "Den skal have en udvidelse til at forbedre YouTube-oplevelsen med videoeffekter, farvefiltre, lydforbedringer og andre værdifulde funktioner."
+    },
+    "default_title": {
+    	"message": "Vælg Filtrer for at søge på YouTube-video"
+    }
+}

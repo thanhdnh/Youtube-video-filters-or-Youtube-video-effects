@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "YouTube Video Effects"
+    },
+    "short_name": {
+        "message": "YouTube Color Filters"
+    },
+    "description": {
+        "message": "ビデオエフェクト、カラーフィルタ、オーディオエンハンスメントなどの貴重な機能を使って、YouTubeエクスペリエンスを向上させるために必要な拡張機能。"
+    },
+    "default_title": {
+    	"message": "フィルタを選択してYouTube動画に適用する"
+    }
+}

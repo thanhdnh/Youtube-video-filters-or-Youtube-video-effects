@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "YouTube Video Effects"
+    },
+    "short_name": {
+        "message": "YouTube Color Filters"
+    },
+    "description": {
+        "message": "비디오 효과, 컬러 필터, 오디오 향상 및 기타 유용한 기능을 통해 YouTube 경험을 향상시킬 수있는 확장 기능이 있어야합니다."
+    },
+    "default_title": {
+    	"message": "YouTube 동영상에 적용하려면 필터를 선택하십시오"
+    }
+}

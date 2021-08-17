@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "YouTube Video Effects"
+    },
+    "short_name": {
+        "message": "YouTube Color Filters"
+    },
+    "description": {
+        "message": "Phần mở rộng cần có để nâng cao trải nghiệm YouTube với các bộ lọc màu, hiệu ứng video, hiệu chỉnh âm thanh và nhiều tính năng giá trị khác."
+    },
+    "default_title": {
+    	"message": "Chọn bộ lọc để dùng trên YouTube"
+    }
+}

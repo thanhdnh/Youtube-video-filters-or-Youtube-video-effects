@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "YouTube Video Effects"
+    },
+    "short_name": {
+        "message": "YouTube Color Filters"
+    },
+    "description": {
+        "message": "La extensión imprescindible para mejorar la experiencia de YouTube con efectos de video, filtros de color, mejora de audio y otras funciones valiosas."
+    },
+    "default_title": {
+    	"message": "Seleccione Filtro para aplicar al video de YouTube"
+    }
+}

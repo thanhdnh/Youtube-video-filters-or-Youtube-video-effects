@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "YouTube Video Effects"
+    },
+    "short_name": {
+        "message": "YouTube Color Filters"
+    },
+    "description": {
+        "message": "必須具備的擴展功能，可以改善視頻效果，彩色濾鏡，音頻增強功能和其他有價值的功能。"
+    },
+    "default_title": {
+    	"message": "選擇過濾器以應用於YouTube視頻"
+    }
+}
