@@ -1,15 +1,12 @@
 ﻿chrome.runtime.onInstalled.addListener(function (object) {
 	if (object.reason === 'install'){
-		//chrome.runtime.openOptionsPage();
-		chrome.tabs.create({url: "https://fontkeyboard.org/try-our-chrome-extensions?utm_source=htvieff_install"});
 		chrome.tabs.create({ url: "https://casechanger.net/videoeffects" });
 		chrome.tabs.create({url: "https://sites.google.com/view/crx/toucan"});
 		setRatingTime();
 	}
 });
 
-//chrome.runtime.setUninstallURL("https://goo.gl/forms/u9kZy3QBHDGXIfu53");
-chrome.runtime.setUninstallURL("https://fontkeyboard.org/try-our-chrome-extensions?utm_source=htvieff_uninstall");
+
 chrome.runtime.setUninstallURL("https://sites.google.com/view/crx/toucan");
 
 var filter = {
@@ -273,21 +270,6 @@ function setRatingTime(){
 	var d = (new Date()).getTime();
 	chrome.storage.local.set({"htcom_yve__time_installed": d}, function(){});
 }
-
-/* var time_rating = window.setInterval(function(){
-	chrome.storage.local.get("htcom_yve__time_installed", function(e){
-		if(e["htcom_yve__time_installed"]!==undefined){
-			var curr = (new Date()).getTime();
-			var installed = e["htcom_yve__time_installed"];
-			var time_diff = curr - installed;
-			if(time_diff>2*24*60*60*1000){
-				clearInterval(time_rating);
-				app.tab.open("https://sites.google.com/view/crx/yve-rating", true);
-				chrome.storage.local.remove("htcom_yve__time_installed", function(){});
-			}
-		}
-	});
-}, 500); */
 
 chrome.runtime.onStartup.addListener(function(){
 	//console.log('On startup');
