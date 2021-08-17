@@ -11,12 +11,7 @@ function autoScale2(_scale) {
 	if (players.length > 0 && videos.length > 0) {
 		var player = players[0];
 		var video = videos[0];
-		//console.log(_scale);
-		//if (_scale > 1.05) {
 		video.style.transform = 'scale(' + _scale + ')';//_scale + 0.14
-		//} /*else {
-			//video.style.transform = 'scale(1.363)';//1.51
-		//}*/
 	}
 }
 
