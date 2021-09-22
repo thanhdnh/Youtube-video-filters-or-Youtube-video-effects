@@ -1,4 +1,3 @@
-﻿//{
 var filters = new Array("rgba(0,0,0,0)",
 	"rgba(0,255,0,.1)",//memory
 	"rgba(255,255,0,.1)",//moonlight
@@ -55,7 +54,6 @@ var svgfilter = new Array(
 	`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><filter in="SourceGraphic" id="myfilter"><feComponentTransfer><feFuncR type="linear" slope="2" intercept="-.03"/><feFuncG type="linear" slope="2" intercept="-.03"/><feFuncB type="linear" slope="2" intercept="-.03"/></feComponentTransfer></filter></defs></svg>`,/*Contrast*/
 	`<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><filter in="SourceGraphic" id="myfilter"><feComponentTransfer><feFuncR type="linear" slope="10" intercept="-.03"/><feFuncG type="linear" slope="10" intercept="-.03"/><feFuncB type="linear" slope="10" intercept="-.03"/></feComponentTransfer></filter></defs></svg>`/*exposure*/
 );
-//}
 
 var selected = 0;
 
