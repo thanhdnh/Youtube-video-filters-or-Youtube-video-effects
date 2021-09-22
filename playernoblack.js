@@ -6,10 +6,13 @@ function autoScale() {
 		var video = videos[0];
 		var _scaleX = player.offsetWidth / video.offsetWidth;
 		var _scaleY = player.offsetHeight / video.offsetHeight;
-		var _scale = Math.max(_scaleX, _scaleY);
+		var _scale = Math.max(_scaleX, _scaleY);//console.log(_scaleX+", "+_scaleY+","+_scale);
+		//console.log(_scale);
 		if (_scale > 1.05) {
 			video.style.transform = 'scale(' + (_scale+0.04) + ')';//_scale + 0.14
-		}
+		} /*else {
+			video.style.transform = 'scale(1.363)';//1.51
+		}*/
 	}
 }
 

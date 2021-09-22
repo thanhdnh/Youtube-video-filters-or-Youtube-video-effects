@@ -47,6 +47,14 @@ document.addEventListener("DOMContentLoaded", function () {
 		chrome.runtime.sendMessage({ "youtube_filter_video_auto_loop_current_track": lct });
 	});
 	
+	/*if (localStorage.getItem("youtube_filter_video_adblock") !== undefined && localStorage.getItem("youtube_filter_video_adblock") !== null) {
+		document.getElementById('adblock').checked = ((localStorage.getItem("youtube_filter_video_adblock") === "true") ? true : false);
+	}
+	document.getElementById('adblock').addEventListener("change", function () {
+		adb = this.checked;
+		localStorage.setItem("youtube_filter_video_adblock", adb);
+		chrome.runtime.sendMessage({ "youtube_filter_video_adblock": adb });
+	});*/
 	
 	/*P2P*/
 	document.getElementById('fvideo').addEventListener("change", function () {

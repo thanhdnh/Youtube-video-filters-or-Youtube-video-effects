@@ -29,7 +29,7 @@ body {
 	background-color:rgba(255, 253, 253, 0.21);
 	border-radius:1px;
 	padding:10px 5px;
-	margin-top:-11px;
+	margin-top:0px;
 	z-index:999999;
 	/* transform:scale(0.9); */
 }
@@ -42,7 +42,7 @@ body {
 }
 
 #audioapp{
-	display:inline-block !important;
+	/*display:inline-block !important;*/
 	float:right;
 }
 
@@ -179,7 +179,7 @@ header {
 
 footer {
   position: fixed;
-  height: 12px;
+  height: 22px;
   width: 100%;
   background: linear-gradient(360deg, #c10000, #FF5722);
   bottom: 0px;
@@ -187,7 +187,7 @@ footer {
   margin: 0px auto;
   text-align: center;
   padding-left: 0px;
-  padding-bottom: 18px;
+  padding-bottom: 13px;
   z-index:99999;
 }
 
@@ -286,7 +286,7 @@ svg:hover {
     margin-bottom: 90px;
     padding-right: 2px;
     transform: rotate(90deg) /* scale(.9) */;
-    margin-top: 71px;
+    margin-top: 82px;
     margin-left: -82px;
 }
 #audioapp input, #audioapp select{
@@ -311,7 +311,7 @@ svg:hover {
 }
 #audioapp .slider::-webkit-slider-thumb {
 	background: #4CAF50 !important;
-	-webkit-appearance: none !important
+	-webkit-appearance: none !important;
 	appearance: none important;
 }
 #audioapp .slider-wrap span{

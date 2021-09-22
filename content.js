@@ -58,7 +58,7 @@ var svgfilter = new Array(
 //}
 
 var selected = 0;
-var state = null;
+//var state = null;
 
 var _thread_mask = setInterval(function(){
 	var video = document.getElementsByTagName("video");
@@ -196,16 +196,16 @@ chrome.runtime.onMessage.addListener(
 				}
 			}, 50);
 		}
-		if (request.youtube_darkmode_clicked !== undefined) {
+		/* if (request.youtube_darkmode_clicked !== undefined) {
 			state = ((request.youtube_darkmode_clicked === "true") || (request.youtube_darkmode_clicked === true) ? true : false);
 			if(window.self == window.top && window.location.hostname.indexOf(".youtube.com")>=0){//not in iframe
 				toggleDarkMode(state);
 			}
-		}
+		} */
 	}
 );
 
-function toggleDarkMode(s) {
+/* function toggleDarkMode(s) {
 	if (s == true) {
 		document.documentElement.removeAttribute("style");
 		document.documentElement.setAttribute("style", "font-size: 10px; font-family: Roboto, Arial, sans-serif; background-color: rgb(19, 19, 19);");
@@ -228,9 +228,9 @@ function toggleDarkMode(s) {
 		}
 	}
 	forceMasthead2Dark(state);
-}
+} */
 
-function forceMasthead2Dark(s){
+/* function forceMasthead2Dark(s){
 	var _mh = document.getElementById('forceMasthead2Dark');
 	if(_mh!=null){
 		_mh.remove();
@@ -267,9 +267,18 @@ function forceMasthead2Dark(s){
 		style.appendChild(document.createTextNode(css));
 	}
 	document.body.appendChild(style);
-}
+} */
 
 function P2P(){//F9
-	video = document.querySelector('video');	
-	video.requestPictureInPicture();
+	//if(document.pictureInPictureEnabled){	
+		video = document.querySelector('video');	
+		video.requestPictureInPicture();
+	//}
 }
+
+/*function P2POff(){//Alt+Q
+	if(document.pictureInPictureEnabled){	
+		video = document.querySelector('video');	
+		document.exitPictureInPicture();
+	}
+}*/

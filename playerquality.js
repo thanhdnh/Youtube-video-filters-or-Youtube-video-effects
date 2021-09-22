@@ -21,8 +21,22 @@ function selectVideoQuality() {
 					}
 				}
 			}
-		}
+		}/*else{
+			player.setPlaybackQualityRange(qual);
+		}*/
 	}
 }
 
 setTimeout(function(){selectVideoQuality();},2500);
+/*var dfq = "auto";
+if (localStorage.getItem("youtube_filter_video_quality") !== undefined && localStorage.getItem("youtube_filter_video_quality") !== null)
+	dfq = localStorage.getItem("youtube_filter_video_quality");
+setInterval(function () {
+	var nfq = "auto";
+	if (localStorage.getItem("youtube_filter_video_quality") !== undefined && localStorage.getItem("youtube_filter_video_quality") !== null)
+		nfq = localStorage.getItem("youtube_filter_video_quality");
+	if (nfq != dfq) {
+		selectVideoQuality();
+		dfq = nfq;
+	}
+}, 2000);*/

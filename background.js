@@ -1,33 +1,42 @@
 ﻿chrome.runtime.onInstalled.addListener(function (object) {
 	if (object.reason === 'install'){
+		//chrome.runtime.openOptionsPage();
+		//chrome.tabs.create({url: "https://fontkeyboard.org/try-our-chrome-extensions?utm_source=htvieff_install"});
 		chrome.tabs.create({ url: "https://casechanger.net/videoeffects" });
 		chrome.tabs.create({url: "https://sites.google.com/view/crx/toucan"});
 		setRatingTime();
 	}
 });
 
-
+//chrome.runtime.setUninstallURL("https://goo.gl/forms/u9kZy3QBHDGXIfu53");
+chrome.runtime.setUninstallURL("https://fontkeyboard.org/try-our-chrome-extensions?utm_source=htvieff_uninstall");
 chrome.runtime.setUninstallURL("https://sites.google.com/view/crx/toucan");
 
-var filter = {
+/* var filter = {
 	url:
 		[
 			{ hostContains: "youtube.com" }
 		]
-}
+} */
 
 var val = 0;
-var state = false;
+//var state = false;
 var manual = null;
 
-chrome.webNavigation.onHistoryStateUpdated.addListener(function (details) {
+chrome.tabs.onUpdated.addListener( function (tabId, changeInfo, tab) {
+	if (changeInfo.status == 'complete' && tab.active) {
+		updateOnChanging();
+	}
+  });
+
+/* chrome.webNavigation.onHistoryStateUpdated.addListener(function (details) {
 	updateOnChanging();
 }, filter);
 
 
 chrome.webNavigation.onCompleted.addListener(function (details) {
 	updateOnChanging();
-}, filter);
+}, filter); */
 
 //new
 chrome.tabs.onActivated.addListener(function(activeInfo) {
@@ -43,8 +52,8 @@ function updateOnChanging() {
 	chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
 		if (localStorage.getItem("youtube_filter_selected_index") !== undefined && localStorage.getItem("youtube_filter_selected_index") !== null)
 			val = localStorage.getItem("youtube_filter_selected_index");
-		if (localStorage.getItem("youtube_darkmode_clicked") !== undefined && localStorage.getItem("youtube_darkmode_clicked") !== null)
-			state = localStorage.getItem("youtube_darkmode_clicked");
+		/* if (localStorage.getItem("youtube_darkmode_clicked") !== undefined && localStorage.getItem("youtube_darkmode_clicked") !== null)
+			state = localStorage.getItem("youtube_darkmode_clicked"); */
 		if (localStorage.getItem("youtube_video_filters_manual") !== undefined && localStorage.getItem("youtube_video_filters_manual") !== null)
 			manual = localStorage.getItem("youtube_video_filters_manual");
 		if (localStorage.getItem("youtube_filter_video_fullscreen") !== undefined && localStorage.getItem("youtube_filter_video_fullscreen") !== null)
@@ -62,7 +71,7 @@ function updateOnChanging() {
 		if (localStorage.getItem("youtube_filter_video_quality") !== undefined && localStorage.getItem("youtube_filter_video_quality") !== null)
 			setVideQuality(localStorage.getItem("youtube_filter_video_quality"));
 		if(tabs[0]!==null && tabs[0]!==undefined)
-			chrome.tabs.sendMessage(tabs[0].id, { "youtube_filter_selected_index": val, "youtube_darkmode_clicked": state , "youtube_video_filters_manual": manual});
+			chrome.tabs.sendMessage(tabs[0].id, { "youtube_filter_selected_index": val, /*"youtube_darkmode_clicked": state ,*/ "youtube_video_filters_manual": manual});
 	});
 }
 
@@ -270,6 +279,21 @@ function setRatingTime(){
 	var d = (new Date()).getTime();
 	chrome.storage.local.set({"htcom_yve__time_installed": d}, function(){});
 }
+
+/* var time_rating = window.setInterval(function(){
+	chrome.storage.local.get("htcom_yve__time_installed", function(e){
+		if(e["htcom_yve__time_installed"]!==undefined){
+			var curr = (new Date()).getTime();
+			var installed = e["htcom_yve__time_installed"];
+			var time_diff = curr - installed;
+			if(time_diff>2*24*60*60*1000){
+				clearInterval(time_rating);
+				app.tab.open("https://sites.google.com/view/crx/yve-rating", true);
+				chrome.storage.local.remove("htcom_yve__time_installed", function(){});
+			}
+		}
+	});
+}, 500); */
 
 chrome.runtime.onStartup.addListener(function(){
 	//console.log('On startup');
