@@ -97,19 +97,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	}
 
-	/* if (localStorage.getItem("youtube_darkmode_clicked") !== undefined && localStorage.getItem("youtube_darkmode_clicked") !== null)
-		state = (localStorage.getItem("youtube_darkmode_clicked") === "true" ? true : false);
-	document.getElementById('switchdm').checked = state; */
-});
-
-/* document.getElementById('switchdm').addEventListener('change', function () {
-	state = document.getElementById('switchdm').checked;
-	localStorage.setItem("youtube_darkmode_clicked", state);
-	chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
-		chrome.tabs.sendMessage(tabs[0].id, { "youtube_darkmode_clicked": state });
-	});
-}); */
-
 document.getElementById('moption').addEventListener('click', function () {
 	chrome.runtime.openOptionsPage();
 });
