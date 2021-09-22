@@ -58,7 +58,6 @@ var svgfilter = new Array(
 //}
 
 var selected = 0;
-//var state = null;
 
 var _thread_mask = setInterval(function(){
 	var video = document.getElementsByTagName("video");
