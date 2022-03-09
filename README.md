@@ -6,7 +6,7 @@ Bring video effects and color filters to YouTube. All of these effects/filters w
 
 [For Chrome (and other Chromium-based browsers, such as Opera, Yandex browser, Coccoc etc)](https://chrome.google.com/webstore/detail/youtube-video-filters/jdjldbengpgdcfkljfdmakdgmfpneldd) | [For FireFox](https://addons.mozilla.org/en-US/firefox/addon/youtube-video-effects/)
 
-![user interface](https://lh5.googleusercontent.com/CXLSrGiQ1lEg9rQyaEP90yDwpVvjQkCHOzlkUys5J75am0rRKvjEcgB6cSatKVPE1rOLG5wFW---NOPupUQ3d1EYkRKC1vA55dFVYv1kuphWR9Us=w1280)
+![user interface](https://addons.mozilla.org/user-media/previews/full/201/201841.png?modified=1622133085)
 
 We also will support for other browsers, such as: Safari, Edge, etc.
 ## This is free and open-source
